@@ -5,11 +5,11 @@ The macOS dedicated host resource class is a new option for those developing, bu
 
 The identifier for the dedicated host resource is `metal` and supports the 5 latest Xcode versions (see below for version details).
 ### Supported Xcode Images
-* Xcode 13.0.0
-* Xcode 12.5.1
-* Xcode 12.4.0
-* Xcode 12.3.0
-* Xcode 12.2.0
+* [Xcode 13.0.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1977/index.html)
+* [Xcode 12.5.1](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1964/index.html)
+* [Xcode 12.4.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1970/index.html)
+* [Xcode 12.3.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1971/index.html)
+* [Xcode 12.2.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1975/index.html)
 ### Known Limitations
 The dedicated host resources do not currently support test splitting or parallelism.
 ## Pricing and Specs
