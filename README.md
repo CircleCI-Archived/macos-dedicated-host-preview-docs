@@ -46,7 +46,7 @@ workflows:
       - build-and-test
 ```
 ## How to provide feedback & frequently asked questions
-Please [open an issue](https://github.com/CircleCI-Public/macos-dedicated-host-preview-docs/issues) with any feedback.
+We will be sending a short, 2-question survey each week to gather feedback. You may also [open an issue](https://github.com/CircleCI-Public/macos-dedicated-host-preview-docs/issues) with any feedback or to report any issues that you encounter.
 ### FAQ
 * Is there an Apple Silicon option for dedicated hosts?
   * We plan to support Apple Silicon hardware in the future, but that will not be included in this closed preview.
