@@ -3,7 +3,7 @@ The purpose of this repository is to walk you through the details of the macOS d
 ## What are macOS dedicated host resources on CircleCI?
 The macOS dedicated host resource class is a new option for those developing, building, testing, and signing iOS, iPadOS, macOS, WatchOS, and tvOS applications using the Xcode IDE. These dedicated resources provide an isolated environment for increased security. This resource class requires a 24-hour minimum lease and runs on Intel-based Mac hardware. 
 
-The identifier for the dedicated host resource is `metal` and supports the 5 latest Xcode versions (see below for version details).
+The identifier for the dedicated host resource is `metal` and supports Xcode v12.2.0 - 13.0.0 (see links below for image details).
 ### Supported Xcode Images
 * [Xcode 13.0.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1977/index.html)
 * [Xcode 12.5.1](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1964/index.html)
