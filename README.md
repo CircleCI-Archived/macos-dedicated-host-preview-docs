@@ -12,6 +12,7 @@ The identifier for the dedicated host resource is `metal` and supports Xcode v12
 * [Xcode 12.2.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1975/index.html)
 ### Known Limitations
 * Does not currently support test splitting or parallelism
+* Only supports a concurrecy limit of 1
 * Will not work with the [CircleCI macOS orb](https://circleci.com/developer/orbs/orb/circleci/macos)
 * Interface testing is not supported
 * Open source projects are not supported (coming soon - need to patch a security vulnerability)
