@@ -12,10 +12,7 @@ The identifier for the dedicated host resource is `metal` and supports Xcode v12
 * [Xcode 12.2.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1975/index.html)
 ### Known Limitations
 * Does not currently support test splitting or parallelism
-* Only supports a concurrecy limit of 1
-* Will not work with the [CircleCI macOS orb](https://circleci.com/developer/orbs/orb/circleci/macos)
-* Interface testing is not supported
-* Open source projects are not supported (coming soon - need to patch a security vulnerability)
+* Open source projects are not supported (coming soon!)
 ## Pricing and Specs
 Once a dedicated host has been allocated, you will have exclusive access to it for a minimum of 24 hours. If the dedicated host is already in use when a job is kicked off, an additional dedicated host will be reserved (with its own 24 hour lease window). Each account can currently have a maximum of three concurrent dedicated hosts. Any time over the initial 24 hours that a dedicated host is in use will be charged a per-minute overage rate (see table below for pricing details).
 
