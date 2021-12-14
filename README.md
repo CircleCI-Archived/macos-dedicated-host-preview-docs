@@ -12,6 +12,7 @@ The identifier for the dedicated host resource is `metal` and supports Xcode v12
 * [Xcode 12.2.0](https://circle-macos-docs.s3.amazonaws.com/image-manifest/cci-macos-production-1975/index.html)
 ### Known Limitations
 * Does not currently support test splitting or parallelism
+* The host gets cleaned between jobs, which can take 5-45 minutes. We are working to bring this down to a consistent 5 minutes or less and are aiming to have this available in mid-January.
 ## Pricing and Specs
 Once a dedicated host has been allocated, you will have exclusive access to it for a minimum of 24 hours. If the dedicated host is already in use when a job is kicked off, an additional dedicated host will be reserved (with its own 24 hour lease window). Each account can currently have a maximum of three concurrent dedicated hosts. Any time over the initial 24 hours that a dedicated host is in use will be charged a per-minute overage rate (see table below for pricing details).
 
