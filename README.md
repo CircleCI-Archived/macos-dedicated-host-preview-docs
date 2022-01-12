@@ -16,9 +16,9 @@ The identifier for the dedicated host resource is `metal` and supports Xcode v12
 ## Pricing and Specs
 Once a dedicated host has been allocated, you will have exclusive access to it for a minimum of 24 hours. If the dedicated host is already in use when a job is kicked off, an additional dedicated host will be reserved (with its own 24 hour lease window). Each account can currently have a maximum of three concurrent dedicated hosts. Any time over the initial 24 hours that a dedicated host is in use will be charged a per-minute overage rate (see table below for pricing details).
 
-|Resource Class Name|vCPU|Memory|Storage|Credits per 24hr Lease|Overage Credits/Minute
-|---|---|---|---|---|---|
-|`metal`|12|32 GiB|200 GiB|TBD|TBD
+|Resource Class Name|vCPU|Memory|Storage|Cost
+|---|---|---|---|---|
+|`metal`|12|32 GB|200 GB|100 credits per minute (24-hour minimum)
 
 ## Example of a CircleCI config using macOS dedicated host resources
 ```yaml
